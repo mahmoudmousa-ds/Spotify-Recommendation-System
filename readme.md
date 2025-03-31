@@ -1,9 +1,29 @@
-# Spotify Recommendation System ## Description A machine learning-based recommendation system that suggests music based 
-on user listening patterns and preferences using Spotify data. ## Features - Personalized music recommendations - 
-Analysis of listening history - Genre-based filtering - Playlist generation ## Installation ```bash git clone 
-https://github.com/username/spotify-recommendation-system cd spotify-recommendation-system pip install -r 
-requirements.txt ``` ## Usage 1. Set up your Spotify API credentials 2. Run the application 3. Connect your Spotify 
-account 4. Get personalized recommendations ## Configuration Create a `.env` file with your Spotify API credentials: ``` 
-SPOTIFY_CLIENT_ID=your_client_id SPOTIFY_CLIENT_SECRET=your_client_secret ``` ## Technologies Used - Python - Spotify API 
-- Scikit-learn - Pandas - NumPy ## Contributing Pull requests are welcome. For major changes, please open an issue first 
-to discuss what you would like to change. ## License MIT
+# Spotify Capstone Project
+![alt text](spotify.gif)
+## Project Description
+
+This Jupyter Notebook project analyzes Spotify music data using data science and machine learning techniques. The objective is to explore music trends, genre popularity, and audio feature distributions, providing insights into what makes a song popular. The project involves data preprocessing, exploratory data analysis (EDA), and predictive modeling.
+
+The dataset used contains various attributes such as danceability, energy, loudness, tempo, and other key features of Spotify tracks. By leveraging machine learning, this project aims to uncover patterns and trends in the music industry.
+
+
+
+## Usage
+
+This notebook consists of several steps:
+1. **Data Loading:** Importing the Spotify dataset.
+2. **Data Cleaning & Preprocessing:** Handling missing values and transforming data.
+3. **Exploratory Data Analysis (EDA):** Visualizing trends in music data.
+4. **Feature Engineering:** Creating useful features for model training.
+5. **Machine Learning Model Training & Evaluation:** Training models to predict song popularity.
+6. **Conclusion & Insights:** Summarizing findings and potential improvements.
+
+## Technologies Used
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
